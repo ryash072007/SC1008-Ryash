@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/*.o": true,
+        "**/*.out": true,
+        "**/*.exe": true,
+        "**/*.ilk": true,
+        "**/*.obj": true,
+        "**/*.pdb": true
+    }
+}
