@@ -12,7 +12,7 @@ int main()
         return 0;
     }
 
-    char nums[10][5] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    char nums[10][7] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
     while (number > 0) {
         int last_digit = number % 10;
