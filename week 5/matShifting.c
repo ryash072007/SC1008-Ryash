@@ -33,19 +33,7 @@ void matShifting(int a[M][M], int b[M][M], int n)
 {
     /*edit*/
     /* Write your code here */
-    for (int idx = n - 1; idx > 0; idx--)
-    {
-        for (int row_idx = 0; row_idx < n; row_idx++)
-        {
-            int c1 = idx - 1;
-            int c2 = idx;
-            int temp = a[row_idx][c1];
-            a[row_idx][c1] = a[row_idx][c2];
-            b[row_idx][c1] = a[row_idx][c2];
-            a[row_idx][c2] = temp;
-            b[row_idx][c2] = temp;
-        }
-
-        /*end_edit*/
-    }
+    
+    /*end_edit*/
+    
 }
